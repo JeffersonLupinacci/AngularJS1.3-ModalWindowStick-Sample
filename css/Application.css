@@ -1,0 +1,7 @@
+@import url("reset.css");
+@import url("desktop.css");
+@import url("window.css");
+
+body {
+    overflow:hidden;
+}

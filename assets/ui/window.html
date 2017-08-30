@@ -1,0 +1,22 @@
+<div class="wnForm" >
+    <div class="wnFormTitleBar">
+        <div class="wnFormTitleBarIcon"></div>
+        <div class="wnFormTitleBarCaption" >{{caption}}</div>
+        <div class="wnFormTitleBarSystemMenu">
+            <div class="wnFormTitleBarSystemMenuLine"></div>
+            <figure class="wnFormMinimize" ng-click="minimizeWindow()" ng-show="minimizable"><i></i></figure>
+            <figure class="wnFormMaximize" ng-click="maximizeWindow()" ng-show="maximizable"><i></i></figure>
+            <figure class="wnFormClose" ng-click="closeWindow()" ng-show="closeable"><i></i></figure>
+        </div>
+    </div>
+    <div style="clear:both;"> </div>
+    <div class="wFormContent">
+        <p>Moveable:    {{movable}}</p>
+        <p>Resizable:   {{resizable}}</p>
+        <p>Maximizable: {{maximizable}}</p>
+        <p>Minimizable: {{minimizable}}</p>
+        <p>Closeable:   {{closeable}}</p>
+        <p>SystemButtons: systembuttons</p>
+
+    </div>
+</div>

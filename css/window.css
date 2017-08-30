@@ -1,0 +1,65 @@
+.wnForm {
+    position:absolute; top:25px; left:25px; border-radius: 3px; box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15), 0 0 15px 5px rgba(0, 0, 0, 0.1); background: #F6F6F6; z-index: 0;}
+
+.wnFormShadow {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.15), 0 0 25px 5px rgba(0, 0, 0, 0.35);}
+
+.wnFormTitleBar {
+    border-bottom:1px solid #ccc; top: 0px; left: 0px; width: calc(100%); height: calc(39px); overflow:hidden; box-shadow: 0 1px rgba(255, 255, 255, 0.1) inset;
+    background-image: -webkit-linear-gradient(bottom, #d6d6d6, #ffffff); background-image: -moz-linear-gradient(bottom, #d6d6d6, #ffffff);
+    background-image: -o-linear-gradient(bottom, #d6d6d6, #ffffff); background-image: linear-gradient(to top, #d6d6d6, #ffffff); cursor: move; }
+
+.wnFormTitleBarIcon {
+    float:left; width: 30px; height: calc(39px); cursor: move; }
+
+.wnFormTitleBarCaption{
+    float:left; margin-top:12px; width: calc(100% - 125px);
+    white-space: nowrap;
+    height: calc(39px); cursor: move; font-size: 14px; color: #666;
+    text-shadow: 0.5px 0.5px 0.05px #fff; -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; overflow: hidden;}
+
+.wnFormTitleBarSystemMenu{
+    float:right; white-space: nowrap; width: 90px; height: calc(39px); border-left: 1px solid #FFF; cursor: move; }
+
+.wnFormTitleBarSystemMenuLine{
+    float:left; border-right: 1px solid #CCC; height: calc(39px); width: calc(1px); }
+
+.wnFormContent{}
+
+.wnForm_wResize {
+    position: absolute; top: 0px; left: calc(100% - 4px); width: 5px; height: 100%; cursor: w-resize; }
+
+.wnForm_eResize {
+    position: absolute; top: 0px; left: -3px; width: 8px; height: 100%; cursor: e-resize;}
+
+.wnForm_sResize {
+    position: absolute; top: calc(100% - 4px); left: 0px; width: 100%; height: 10px; cursor: s-resize;}
+
+.wnForm_seResize {
+    position: absolute; top: calc(100% - 10px); left: calc(100% - 10px); width: 12px; height: 12px; cursor: se-resize;}
+
+.wnForm_swResize {
+    position: absolute; top: calc(100% - 9px); left: -2px; width: 12px; height: 12px; cursor: sw-resize;}
+
+.wnFormMinimize, .wnFormMaximize, .wnFormClose {
+    margin-top: 11px; margin-left: 5px; width: 10px; height: 9px; padding: 5px; float: left; border: 1px solid transparent; border-radius: 2px; }
+
+.wnFormMinimize:hover, .wnFormMaximize:hover, .wnFormClose:hover {
+    border: 1px solid #999; }
+
+.wnFormMinimize i, .wnFormMaximize i, .wnFormClose i {
+    width: 10px; height: 9px; display: block; background: url('../assets/img/win_buttons.png') no-repeat; background-size: 30px 27px; } /*  */
+
+.wnFormMinimize i {
+    background-position: 0 -18px; }
+
+.wnFormMaximize i {
+    background-position: -10px -18px; }
+
+.wnFormClose i {
+    background-position: -20px -18px; }
+
+.wnMovableGlass{
+    position: absolute; border-radius: 3px;  border: solid 4px #333; z-index: 99; opacity: 0.2; background-color: #d6d6d6; -webkit-filter: blur(1px); filter: blur(1px); -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; -ms-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out;
+}
